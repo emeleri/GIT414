@@ -22,3 +22,26 @@ body {
     }
   }
   
+  
+  /* Large screens */
+  @media only screen and (min-width: 900px) {
+    body { 
+      max-width: 900px; 
+      margin: auto; 
+    }
+    h1 { 
+      font-size: 3rem; 
+    }
+    main {
+      background: blue;
+      color: white;
+    }
+  }
+  
+  /* Extra large screens */
+  @media only screen and (min-width: 1200px) {
+    main {
+      background: red;
+    }
+  }
+  
